@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="codehelp.png" type="image/x-icon">
+    <title>Animation In CSS</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 5px solid black;
+            width: 80vw;
+            height: 100vh;
+            padding: 2px;
+         
+          
+        }
+        #box1{
+            background-color: black;
+            border: 5px solid red;
+            width: 250px;
+            height: 50px;
+            border-radius: 5px;
+            padding: 10px;
+            position:relative;
+            animation-name: rightMovement;
+            animation-duration: 2s;
+            animation-iteration-count: 5;
+            animation-delay: 2s; 
+            animation-direction:reverse;
+            animation-timing-function: linear;
+        }
+        @keyframes rightMovement {
+            form{
+                top: 1000px;
+                left:0px;
+            }
+            to{
+             top:1000px;
+             left:700px;
+            }
+        }
+
+        #box2{
+            background-color: brown;
+            border: 5px solid black;
+            width: 250px;
+            height: 50px;
+            border-radius: 5px;
+            padding: 2px;
+            position: relative;
+            animation-name: leftMovement;
+            animation-duration: 2s;
+            animation-iteration-count: 5;
+            animation-delay: 2s; 
+            animation-direction: reverse;
+            animation-timing-function: linear;
+        }
+
+        @keyframes leftMovement {
+            form{
+                top: 900px;
+                left:700px;
+            }
+            to{
+             top:75px;
+             left:90px;
+            }
+        }
+    #circle1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: black;
+        border:2px solid darkblue ;
+        animation-name: circleMovement;
+            animation-duration: 2s;
+            animation-iteration-count: 5;
+            animation-delay: 2s; 
+            animation-direction: reverse;
+            animation-timing-function: linear;
+
+    }
+    @keyframes circleMovement {
+        0%{
+top: 1%;
+left: 5%;
+        }
+        30%{
+top:50%;
+left: 40%;
+        }
+        60%{
+            top: 90%;
+            left: 10%;
+
+        }
+        100%{
+            top: 90;
+            left: 90%;
+
+        }
+        
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="circle" id="circle1"></div>
+        
+    </div>
+    
+</body>
+</html>
