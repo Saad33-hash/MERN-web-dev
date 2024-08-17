@@ -1,0 +1,36 @@
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: beige;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+.conatiner{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    border: 3px sold black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box:hover{
+     /* transform: rotate(45deg);  if i put value in minus it will wotate anticlock wise */
+     /* transform:scale(2);  it will make the box big or small*/
+     /* transform: skew(45deg); if i put minus it will tilt in opposite direction */
+     /* transform: translate(500px,300px); translate move the box in x or y direction */
+     transform: skewY(50deg);
+}
+
+p{
+    font-size: 25px;
+}

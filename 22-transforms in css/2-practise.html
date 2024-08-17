@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practising</title>
+    <style>
+        .conatiner{
+            height: 800px;
+            width: 1000px;
+            background-color: beige;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+           
+        }
+        .box{
+            height: 300px;
+            width: 300px;
+            background-color: lime;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all;
+            transition-duration: 1s;
+            transition-delay: 1s;
+            transition-timing-function: linear;
+        }
+        .box:hover{
+            transform: translate(200px,70px);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="box">
+            <p>This is the box within conatiner</p>
+        </div>
+    </div>
+</body>
+</html>
