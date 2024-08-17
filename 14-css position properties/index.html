@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="codehelp.png" type="image/x-icon">
+    <title>CSS position Property</title>
+    <style>
+         div{
+        position: relative;
+        } 
+
+        div{
+            border: 5px solid black;
+        height: 80000px;
+        background-color: beige;
+        }
+
+        .container{
+            position: relative;
+            height: 8000px;
+        background-color: beige;
+        }
+        /* .image1{
+             by default position is staic am dyou cant do anything in statix 
+         top: 20px; 
+        } */
+
+        /* .image2{
+        position: relative;
+            top: 20px;
+            right: 20px;
+            left: 20px; 
+        } */
+        /* .image3{
+   position: absolute;
+            top: 100px;
+        
+        } */
+        .image4{
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="codehelp.png" alt="code help" class="image1"
+     height="200px";
+       width="200px"
+    
+        >
+        <img src="highlight_cover.png" alt="cover"  class="image2"
+       height="200px"
+      width="200px"
+    
+        >
+
+        <img src="highlight_cover_black.png" alt="cover"  class="image3"
+       height="200px"
+       width="200px"
+        >
+     <img src="codehelp.png" alt="codehelp" class="image4"
+     width="200px"
+     height="200px"
+     >
+    </div>
+</body>
+</html>
