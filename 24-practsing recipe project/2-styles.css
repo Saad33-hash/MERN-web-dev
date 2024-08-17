@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     box-sizing: border-box;
+   
+}  
+
+.container{
+    border: 5px solid black;
+    background-color:white ;
+    width: 99vw;
+    height: 100%;
+}
+ 
+ .navcontainer{
+    border: 1px solid black;
+    width: 100%;
+    height: 20%;
+} 
+
+
+#navbar{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    margin-right:10px;
+   margin-left: 15%;
+  
+     margin-right: 10rem; 
+}
+
+#navbar img{
+    height: 80px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: rgba(144, 238, 144, 0.626);
+}
+#leftcontent{
+    margin-top: 40px;
+    display: flex;
+   justify-content: space-around;
+  
+}
+a{
+    color:rgb(84, 236, 84);
+    text-decoration: none;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-left: 90px;
+ 
+}
+#b{
+color: black;
+background-color: green;
+    border-radius: 5px;
+   margin-top:55px ;
+   padding: 5px;
+}
+.upperbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(104, 235, 104, 0.888);
+}
+.leftbox{
+    margin-top: 5%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+    transition-timing-function: linear;
+}
+.leftbox h2{
+    font-size: 2rem;
+}
+#p1{
+    font-size: 3rem;
+    text-shadow: 10px 10px 10px white;
+    margin-left: 15%;
+    color: white;
+}
+#p2{
+    font-size: 1.6rem;
+    text-shadow: 10px 10px 10px white;
+    margin-left: 30%;
+    color: white;
+}
+#b1{
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-bottom: 100px;
+}
+#b1:hover{
+    transform: scale(1.2);
+}
+.rightbox img{
+    height: 200x;
+    width: 400px;
+   border-radius:5px;
+
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 30px;
+    margin: 30px;   
+}
+.box1{
+    height: 15em;
+    width: 200px;
+    background-color: darkgreen;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   border-radius: 10px;
+    margin-top: 10px;
+    transition: all;
+    transition-timing-function: linear;
+}
+.box1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+align-self: center;
+}
+.box1 p{
+    text-align: center;
+    font-size:1rem ;
+    color: white;
+}
+#bb{
+width: 5rem;
+border-radius: 10px;
+align-self: center;
+}
+#bb:hover{
+    transform: scale(1.1);
+}
+
+.box2{
+  height: 15em;
+    width: 200px;
+    background-color:orange;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: all;
+    transition-timing-function: linear;
+    /* margin-left: 15%; */
+   
+}
+
+.box2 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+align-self: center;
+}
+
+.box2 p{
+    text-align: center;
+    font-size:1rem ;
+    color: white;
+}
+#b3{
+    width: 5rem;
+border-radius: 10px;
+align-self: center;
+}
+
+#b3:hover{
+    transform: scale(1.1);
+}
+
+.box3{
+    height: 15em;
+    width: 200px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: all;
+    transition-timing-function: linear;
+        
+}
+.box3 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+align-self: center;
+}
+.box3 p{
+    text-align: center;
+    font-size:1rem ;
+    color: white;
+}
+#b4{
+    background-color: white;
+    width: 5rem;
+    border-radius: 10px;
+    align-self: center;
+}
+#b4:hover{
+    transform: scale(1.1);
+}
+
+.foot{
+    background-color: lightgreen;
+    width: 98vw;
+    height: 3rem;
+    border-radius: 5px;
+}
+.foot p{
+    text-align: center;
+    font-weight: 100;
+}
