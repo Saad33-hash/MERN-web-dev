@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}*
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-color:#7DF9FF; /* Neon Pink */ ;
+     height: 100% ;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+}
+.calculator{
+    width: 280px;
+    height: 385px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    
+
+    
+}
+.display{
+    background-color: rgb(161, 187, 254);
+    height: 100px;
+    width:80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    margin-left: 30px;
+
+}
+
+.lowerportion{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,1fr);
+    gap: 2px;
+   
+
+   
+}
+.lowerportion button{
+    height: 40px; 
+     width: 40px; 
+    border-radius: 50px;
+    justify-self: center;
+
+}
+
+#button1{
+    background-color: azure;
+    font-weight: 150;
+    font-size: medium;
+}
+#button2{
+    background-color: azure;
+    font-weight: 150;
+    font-size: medium;
+}
+#button3{
+    background-color: rgb(84, 186, 84);
+    font-weight: 200;
+    font-size: medium;
+}
+#button4{
+    background-color: azure;
+    font-weight: 150;
+    font-size: medium;
+}
+#button5{
+    background-color: azure;
+    font-weight: 150;
+    font-size: medium;
+}
+#button6{
+    background-color: rgb(84, 186, 84);
+    font-weight: 200;
+    font-size: medium;
+}
+#button7{
+    background-color: azure;
+    font-weight: 150;
+    font-size: medium;
+}
+#button8{
+    background-color: azure;
+    font-weight: 150;
+    font-size: medium;
+}
+#button9{
+    background-color: rgb(84, 186, 84);
+    font-weight: 200;
+    font-size: medium;
+}
+#button10{
+    background-color: azure;
+    font-weight: 150;
+    font-size: medium;
+}
+#button11{
+    background-color: azure;
+    font-weight: 150;
+    font-size: medium;
+}
+#button12{
+    background-color: rgb(84, 186, 84);
+    font-weight: 200;
+    font-size: medium;
+}
+#button13{
+  
+background-color:azure;
+    font-weight: 150;
+    font-size: medium;
+}
+#button14{
+    background-color: azure;
+    font-weight: 150;
+    font-size: medium;
+}
+#button15{
+    background-color:rgb(84, 186, 84);
+    font-weight: 200;
+    font-size: medium;
+}
+#button16{
+    width: 180px;
+    background-color: #FF0000;
+    grid-column: 1/3;
+    grid-row: 6;
+    font-size:medium;
+    font-weight: 300;
+    border-radius: 20px;
+}
+#button17{
+    background-color:  #FF0000;
+    font-weight: 200;
+    font-size: medium; 
+}
+
+
