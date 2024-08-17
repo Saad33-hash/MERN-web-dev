@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+  
+    height: 100%;
+    width: 100vw;
+    border: 2px solid black;
+background-color: azure;
+overflow-x:hidden ;
+
+
+
+}
+
+.navcontainer{
+    min-height: 70px;
+    width: 99.5vw;
+    /* background-color: rgb(146, 239, 239); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+nav{
+    width: 100%;
+}
+/* conatin ul>li*2 */
+#navlist{
+    margin-left: 15px;
+    margin-right: 15px;
+    list-style-type: none; /*to remove bullets from the unorder list */
+display: flex;
+justify-content: space-between;
+     }
+
+   /* styling text */
+  #navlogo{
+    margin-top: 35px;
+    font-size: 2.0em;
+    color: white;
+   }
+/* anchor tags */
+a{
+    margin-top: 45px;
+    text-decoration: none;
+  color: azure;
+}
+
+#navitems{
+display: flex;
+gap: 10px;
+}
+
+/* styling footersection */
+.footer{
+    
+    background-color: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+   
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    text-align: center;
+    min-height: 40px;
+}
+
+.footer p{
+    color: azure;
+    font: 2.5em;
+}
+
+.contentbox{
+    background-color: white;
+    /* border: 1px solid black; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+flex-direction: column;
+    gap: 70px ;
+    box-shadow: 3px 3px 15px black;
+    padding: 20px;
+   
+    
+}
+
+.item{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.rightbox{
+    position:relative;
+transition: all;
+}
+.rightbox img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    transition: all;
+    transition-timing-function: linear;
+}
+.rightbox:hover{
+    transform:scale(1.1rem);
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftbox h2{
+
+    font-size: 2em;
+}
+
+.orderlist{
+    font-size: 1.2rem;
+}
+
+.rightbox .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(100, 98, 98, 0.548);
+    border-radius: 20px;
+    opacity: 0;  /*  agar kisi cheez ko visble na krwana ho jb hover kry to opacity 0 kr do */
+    transition: all;
+    transition-timing-function: 0.5s
+    ;
+}
+
+.rightbox:hover .overlay{
+    opacity: 1;
+}
+.rightbox .overlay span{
+color: white;
+font-size: 1.1rem;
+}
