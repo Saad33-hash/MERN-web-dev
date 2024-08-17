@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D transform</title>
+    <style>
+       *{
+        padding:0px;
+        margin: 0px;
+        box-sizing: border-box;
+       }
+       body{
+        height: 100vh;
+        width: 100vw;
+       }
+       .container{
+        height: 700px;
+        width: 100%;
+        background-color: rgb(43, 40, 40);
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+       margin: 1rem;
+       gap: 1rem;
+    
+
+       }
+       .box{
+        background-color: bisque;
+        height: 150px;
+        width: 150px;
+        gap: 1rem;
+        margin: auto;
+       }
+       #scaleZ:hover{
+        transform: perspective(100px)  scaleZ(3);
+       }
+    
+    </style>
+</head>
+<body>
+   <div class="container">
+   <div class="box" id="rotateX"></div>
+   <div class="box" id="rotateY"></div>
+   <div class="box" id="rotateZ"></div>
+   <div class="box" id="scaleX"></div>
+   <div class="box" id="scaleY"></div>
+   <div class="box" id="scalez"></div>
+   <div class="box" id="translateX"></div>
+   <div class="box" id="translateY"></div>
+   <div class="box" id="translateZ"></div>
+
+   </div>
+</body>
+</html>
+
