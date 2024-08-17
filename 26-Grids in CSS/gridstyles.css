@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    background-color: rgb(31, 30, 30);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: 2px;
+    border: 2px solid white;
+    /* conatiner properties */
+    /* justify-items: center;  place item horizatally at the center*/
+    /* justify-items: start; place items horizantally at the start */
+    /* justify-items:end ; place items horizantally at the end*/
+
+    /* container properties vertically */
+    /* align-items: start; */
+    /* align-items: center; */
+    align-items: end; /* it will place at the end of cell*/
+} 
+
+.items{
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(178, 190, 190) ;
+    background-color:rgb(100, 212, 212) ;
+    /* properties for items horizantaly */
+    /* justify-self: end; place the grid boxes at the end */  
+    /* justify-self: center; place the items boxes at the center */
+    /* justify-self: start; place the item boxes at the start*/
+    /* justify-self: stretch stretch the required boxes */
+
+
+    /* properties for vertical */
+    /* align-self: start;  vertically cell kay start may aa jay ga */
+    /* align-self: center;vertically cell kay center may */
+    /* align-self: end;  vertically cell aky end may*/
+
+    /* using horizantal and vertical in center */
+    /* place-self: center; */
+} 
