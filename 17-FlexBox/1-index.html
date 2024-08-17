@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>FlexBox</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 1px solid black;
+            height: 300px;
+            padding: 2px;
+            margin: 2px;
+            display: flex;
+             flex-direction: row;  
+                              /*  we  can also use column  */
+           /*  does not squeeze the content at what time space is avalible */
+             /* flex-wrap: wrap;          */
+         
+            /* justify-content: center;  content place at the center of main axes  */
+            /* justify-content: start;    content place at the start of mian axes flex container */
+            /* justify-content: end        content place according to the end of main axes; */
+        /* talk about spaces */
+        /* justify-content: space-between;  first and last box will be attached to flex box while other have equal space betwwn them*/
+        /* justify-content: space-around;    equal space around the each boxes */
+        /* justify-content: space-evenly;     even space between all the boxes */
+
+
+        /* talk about alligning items */
+        /* align-items: start; by default it allign vertically and allign at the start */
+        /* align-items:center; allign item at the center of verticl axes */
+        /* align-items: end; allign at the end of vertical axes */
+
+        /* if we want to allign the content at the center of cross means x and y means main or cross axis*/
+        /*   justify-content: center;
+             align-items: center;              */
+
+
+        /* to handle the gap between contents */
+        /* align-content: start; attach all the boxes at the start no gap between */
+        /* align-content: end ; atach all the boes at the end */
+        /* align-content:center attch all the boxes at the center */
+
+        }
+        .box{
+             width: 20px;
+            height: 20px; 
+            border: 2px solid black;
+            padding: 2px;
+            margin: 2px;
+        }
+        #box1{
+            background-color: aqua;
+            /* order: 10;  change the sequence of boxes we use order */
+            /* flex-shrink: 4;  it will shrink the box number 4 4x faster */
+            /* align-self:center ;  it will allign box 1 at the center */
+        }
+        #box2{
+            background-color: black;
+        }
+        #box3{
+            background-color: aquamarine;
+        }
+        #box4{
+            background-color: brown;
+            /* order: -1; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+    </div>
+</body>
+</html>
