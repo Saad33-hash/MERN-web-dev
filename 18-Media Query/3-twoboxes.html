@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 1000px;
+            width: 80vw;
+            background-color: beige;
+            border: 5px solid black;
+            display: flex;
+            padding: 2px;
+            margin: 2px;
+        }
+        #box1{
+            background-color: brown;
+            border: 5px solid black;
+            height: 300px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        #box2{
+            background-color: brown;
+            border: 5px solid black;
+            height: 300px;
+            width: 300px;
+        }
+        p{
+            border: 1px solid black;
+        }
+        @media(max-width:640px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <p>text1</p>
+            <p>text2</p>
+        </div>
+        <div class="box" id="box1">
+            <img src="codehelp.png" alt="code">
+        </div>
+    </div>
+</body>
+</html>

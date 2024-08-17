@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+    background-color: khaki;
+    border: 5px solid black;
+    height: 1000px;
+    width: 1000px;
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    }
+
+    #box1{
+        background-color: black;
+        border: 5px solid red;
+        height: 300px;
+        width: 300px;
+        margin: 2px;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+    #box2{
+        background-color: darkblue;
+        border: 5px solid black;
+        height: 300px;
+        width: 300px;
+        margin: 2px;
+        padding: 2px;
+      
+    }
+    p{
+        border: 5px solid blue;
+    }
+    img{
+        height: 150px;
+    }
+  
+    
+    @media(max-width:600px){
+        .container{
+flex-direction: row;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+<p>text1</p>
+<p>text2</p>
+        </div>
+        <div class="box" id="box2">
+            <img src="codehelp.png" alt="code">
+        </div>
+    </div>
+</body>
+</html>
