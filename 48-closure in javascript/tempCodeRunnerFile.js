@@ -1,0 +1,1 @@
+variable scoping to understand closure
